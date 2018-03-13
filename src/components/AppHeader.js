@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import Center from "./Center";
 import "./AppHeader.css";
 
-export default () => (
+export default () =>
   <header className="AppHeader">
     <Center>
-      <Link class="AppHeader_Title" to="/">
+      <Link className="AppHeader_Title" to="/">
         <h1>Chris Maltby</h1>
       </Link>
       <Link className="AppHeader__Projects" to="/">
@@ -14,5 +14,4 @@ export default () => (
       </Link>
       <Link to="/about">About</Link>
     </Center>
-  </header>
-);
+  </header>;
