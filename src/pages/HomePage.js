@@ -3,15 +3,12 @@ import Teaser from "../components/Teaser";
 import TeaserGrid from "../components/TeaserGrid";
 import Center from "../components/Center";
 import data from "../data/projects.js";
+import Intro from "../components/Intro";
 
 export default () =>
   <div className="transition-item">
     <Center>
-      <p style={{ fontSize: "2rem", paddingBottom: 40, maxWidth: 500 }}>
-        I am a <strong>London</strong> based <strong>developer</strong> of{" "}
-        <strong>applications</strong>, <strong>sites</strong> and{" "}
-        <strong>games</strong>.
-      </p>
+      <Intro />
       <TeaserGrid>
         {Object.keys(data.projects).map(id =>
           <Teaser
