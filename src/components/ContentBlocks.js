@@ -29,9 +29,9 @@ const ContentFullBleed = ({ image }) =>
     }}
   />;
 
-const ContentIframe = ({ src, backgroundColor }) =>
+const ContentIframe = ({ src, title, backgroundColor }) =>
   <div className="ContentIframe" style={{ backgroundColor }}>
-    <iframe src={src} />
+    <iframe src={src} title={title} />
   </div>;
 
 export default ContentBlock;

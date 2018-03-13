@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import ContentBlock from "../components/ContentBlocks";
 import Hero from "../components/Hero";
 import { Helmet } from "react-helmet";

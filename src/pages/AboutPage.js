@@ -1,5 +1,4 @@
 import React from "react";
-import Center from "../components/Center";
 import Hero from "../components/Hero";
 import ContentBlock from "../components/ContentBlocks";
 import { Helmet } from "react-helmet";

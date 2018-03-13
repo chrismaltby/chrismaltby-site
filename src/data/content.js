@@ -37,6 +37,7 @@ build a single codebase to be run on the web and on real Game Boy hardware.`
         {
           type: "iframe",
           backgroundColor: "#263238",
+          title: "GBDK.js example project",
           src: "https://www.gbdkjs.com/examples/boilerplate/web/"
         },
         {
@@ -90,6 +91,7 @@ sollicitudin, vel mattis odio rutrum.`
         {
           type: "iframe",
           backgroundColor: "#263238",
+          title: "One in Two in Four promo site",
           src: "http://www.mayayianni.com/"
         },
         {
