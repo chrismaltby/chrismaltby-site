@@ -50,9 +50,26 @@ created as a [WebGL GLSL shader](https://github.com/gbdkjs/gbdkjs-site/blob/mast
       name: "One in Two in Four",
       url: "http://mayayianni.com/",
       thumbnail: "/img/oneintwoinfour_thumb.jpg",
-      heroImage: "/img/oneintwoinfour_hero.jpg",
-      heroColor: "#0f0082",
-      content: []
+      heroImage: "/img/oneintwoinfour_hero_red.jpg",
+      heroColor: "#c9a084",
+      content: [
+        {
+          type: "markdown",
+          content:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis commodo arcu, id tincidunt eros dignissim sit amet. Aliquam vehicula diam sit amet luctus vestibulum. Proin mauris lorem, hendrerit sed quam quis, ultrices commodo eros. Cras auctor congue nisi. Integer cursus lorem vel nulla sollicitudin, vel mattis odio rutrum."
+        },
+        {
+          type: "iframe",
+          backgroundColor: "#263238",
+          src: "http://www.mayayianni.com/"
+        },
+        {
+          type: "markdown",
+          content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis commodo arcu, id tincidunt eros dignissim sit amet. Aliquam vehicula diam sit amet luctus vestibulum. Proin mauris lorem, hendrerit sed quam quis, ultrices commodo eros. Cras auctor congue nisi. Integer cursus lorem vel nulla sollicitudin, vel mattis odio rutrum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis commodo arcu, id tincidunt eros dignissim sit amet. Aliquam vehicula diam sit amet luctus vestibulum. Proin mauris lorem, hendrerit sed quam quis, ultrices commodo eros. Cras auctor congue nisi. Integer cursus lorem vel nulla sollicitudin, vel mattis odio rutrum.`
+        }
+      ]
     }
   }
 };
