@@ -2,8 +2,8 @@ import React from "react";
 import Teaser from "../components/Teaser";
 import TeaserGrid from "../components/TeaserGrid";
 import Center from "../components/Center";
-import data from "../data/projects.js";
 import Intro from "../components/Intro";
+import data from "../data/content.js";
 
 export default () =>
   <div className="transition-item">

@@ -1,7 +1,6 @@
 import React from "react";
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 import PageTransition from "react-router-page-transition";
-
 import ScrollToTop from "./components/ScrollToTop";
 
 import App from "./App";

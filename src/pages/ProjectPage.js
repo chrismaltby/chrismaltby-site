@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ContentBlock from "../components/ContentBlocks";
 import Hero from "../components/Hero";
-import data from "../data/projects.js";
+import data from "../data/content.js";
 
 export default ({ match }) => {
   const { id } = match.params;
