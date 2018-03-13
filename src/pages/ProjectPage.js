@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ContentBlock from "../components/ContentBlocks";
 import Hero from "../components/Hero";
+import { Helmet } from "react-helmet";
 import data from "../data/content.js";
 
 export default ({ match }) => {
@@ -9,6 +10,11 @@ export default ({ match }) => {
   const project = data.projects[id];
   return (
     <div className="transition-item">
+      <Helmet>
+        <title>
+          {project.name} - Chris Maltby
+        </title>
+      </Helmet>
       <Hero
         name={project.name}
         url={project.url}
