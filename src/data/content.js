@@ -3,17 +3,42 @@ module.exports = {
     content: [
       {
         type: "markdown",
-        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Praesent ultricies arcu vel neque facilisis, eu fringilla odio blandit. Nam
-faucibus risus finibus ante lobortis dapibus id vel augue. Integer
-bibendum dapibus porta. Etiam et justo et purus gravida ornare. Praesent
-ut tincidunt libero.
+        content: `I am a web developer with 15 years professional experience.
 
-Morbi maximus rutrum pellentesque. Proin non ipsum
-egestas nisl mollis pellentesque. Curabitur vitae velit pellentesque,
-egestas ipsum quis, placerat nisi. Donec cursus, ligula nec pharetra
-lobortis, velit turpis mollis sem, vitae sollicitudin neque velit eget
-diam. Proin quis gravida lacus.`
+For the last 10 years I have been the Technical Director at
+[Feed](https://www.feed.xyz) in London, leading a team building marketing
+automation applications, sites, mobile apps, interactive emails and VR
+experiences for eBay and others.
+
+Beyond Feed I'm involved in a number of game projects spanning from GameBoy
+homebrew, to native iOS, to HTML5 with Canvas and WebGL, to Unity projects
+supporting HTC Vive and Google Cardboard.
+
+I also enjoy collaborating with local musicians and artists to build creative
+audio visual projects and installations.
+
+## Beliefs
+
+**Spaces** not ~~tabs~~. **Vim** not ~~Emacs~~. **Functional** not ~~imperative~~. **Mac** not ~~Windows~~.
+
+Open to change.
+
+## Skills
+
+- Node.js
+- MySQL / MongoDB
+- Linux / Mac OS
+- Nginx / Apache
+- HTML5
+- CSS / Less
+- Javascript / React / Backbone
+- Git
+- AWS
+- Docker
+- Ansible
+- Photoshop
+- Illustrator
+- Unity`
       }
     ]
   },

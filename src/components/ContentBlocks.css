@@ -8,8 +8,9 @@
 }
 
 .ContentMarkdown h2 {
-  color: #122c3b;
+  color: #333333;
   font-weight: 300;
+  margin-top: 40px;
 }
 
 .ContentFullBleed {
