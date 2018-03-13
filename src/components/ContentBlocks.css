@@ -31,3 +31,12 @@
   height: 650px;
   border: 0px;
 }
+
+@media (max-width: 768px) {
+  .ContentIframe {
+    height: 400px;
+  }
+  .ContentFullBleed {
+    height: 400px;
+  }
+}

@@ -1,0 +1,28 @@
+.AppFooter {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.AppFooter a {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border: 2px solid #333;
+  border-radius: 64px;
+  margin-right: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.AppFooter a:hover {
+  transform: scale(1.04);
+}
+
+.AppFooter a svg {
+  display: block;
+  width: 24px;
+  height: 24px;
+  vertical-align: baseline;
+  line-height: 0px;
+  margin-left: 12px;
+  margin-top: 12px;
+}

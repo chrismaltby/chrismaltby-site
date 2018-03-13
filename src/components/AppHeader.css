@@ -3,15 +3,37 @@
   text-transform: uppercase;
 }
 
+.AppHeader .Center {
+  display: flex;
+}
+
+.AppHeader_Title {
+  flex: 1;
+}
+
 .AppHeader a {
   display: block;
   text-decoration: none;
-  padding: 10px 0;
+  padding: 0 20px;
+  line-height: 86px;
+}
+
+.AppHeader a:first-child {
+  padding-left: 0;
+}
+
+.AppHeader a:last-child {
+  padding-right: 0;
 }
 
 .AppHeader h1 {
   font-weight: 300;
   font-size: 1.5rem;
-  padding: 15px 0;
   color: #000;
+}
+
+@media (max-width: 768px) {
+  .AppHeader .AppHeader__Projects {
+    display: none;
+  }
 }

@@ -4,19 +4,23 @@ import PageTransition from "react-router-page-transition";
 
 import App from "./App";
 import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
 import ProjectPage from "./pages/ProjectPage";
 
-export default () =>
+export default () => (
   <Router>
     <App>
       <Route
-        render={({ location }) =>
+        render={({ location }) => (
           <PageTransition timeout={1000}>
             <Switch location={location}>
               <Route exact path="/" component={HomePage} />
+              <Route exact path="/about" component={AboutPage} />
               <Route exact path="/projects/:id" component={ProjectPage} />
             </Switch>
-          </PageTransition>}
+          </PageTransition>
+        )}
       />
     </App>
-  </Router>;
+  </Router>
+);

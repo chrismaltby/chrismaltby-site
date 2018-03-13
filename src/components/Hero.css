@@ -3,24 +3,10 @@
   height: 400px;
   overflow: hidden;
   color: #fff;
+  background-color: #dddddd;
   background-size: cover;
   background-position: center;
 }
-
-/*.Hero:after {
-  content: "";
-  background: linear-gradient(
-    to bottom,
-    rgba(16, 41, 56, 0.8) 0%,
-    rgba(16, 41, 56, 0.8) 50%,
-    rgba(16, 41, 56, 0.9) 100%
-  );
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}*/
 
 .Hero .Center {
   position: relative;
@@ -33,7 +19,6 @@
   line-height: 4rem;
   bottom: 100px;
   font-size: 4rem;
-  /*font-weight: 300;*/
   color: #7df1a4;
   padding-right: 20px;
 }
