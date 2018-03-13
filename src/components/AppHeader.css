@@ -1,6 +1,5 @@
 .AppHeader {
   background-color: #fff;
-  text-transform: uppercase;
 }
 
 .AppHeader .Center {
@@ -9,6 +8,7 @@
 
 .AppHeader_Title {
   flex: 1;
+  text-transform: uppercase;
 }
 
 .AppHeader a {
