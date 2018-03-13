@@ -1,0 +1,23 @@
+.Teaser {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.Teaser__Image {
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.Teaser:hover .Teaser__Image {
+  transform: scale(1.04);
+}

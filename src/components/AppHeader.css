@@ -1,0 +1,17 @@
+.AppHeader {
+  background-color: #fff;
+  text-transform: uppercase;
+}
+
+.AppHeader a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.AppHeader h1 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  padding: 15px 0;
+  color: #000;
+}

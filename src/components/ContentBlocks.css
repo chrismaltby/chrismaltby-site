@@ -1,0 +1,33 @@
+.ContentMarkdown {
+  padding: 40px 0;
+  line-height: 1.5;
+  font-size: 1.25rem;
+}
+
+.ContentMarkdown p {
+}
+
+.ContentMarkdown h2 {
+  color: #122c3b;
+  font-weight: 300;
+}
+
+.ContentFullBleed {
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ContentIframe {
+  width: 100%;
+  height: 500px;
+  border: 0px;
+  overflow: hidden;
+}
+
+.ContentIframe iframe {
+  width: 100%;
+  height: 650px;
+  border: 0px;
+}

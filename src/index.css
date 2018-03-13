@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+a {
+  color: #000;
+}
+
+.transition-item {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.transition-leave.transition-leave-active {
+  opacity: 0;
+}
+
+.transition-leave {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.transition-appear.transition-appear-active {
+  opacity: 1;
+}
+
+.transition-appear {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out 0.3s;
+}
