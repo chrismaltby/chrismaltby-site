@@ -3,9 +3,9 @@ import Center from "../components/Center";
 import Hero from "../components/Hero";
 import data from "../data/projects.js";
 
-export default () => (
+export default () =>
   <div className="transition-item">
-    <Hero name="About" image="" color="#333333" />
+    <Hero name="About Me" image="" color="#333333" short={true} />
     <Center>
       <p style={{ paddingTop: 40 }}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
@@ -19,5 +19,4 @@ export default () => (
         diam. Proin quis gravida lacus.
       </p>
     </Center>
-  </div>
-);
+  </div>;
