@@ -1,4 +1,5 @@
 module.exports = {
+  gaId: "UA-115744764-1",
   about: {
     content: [
       {
