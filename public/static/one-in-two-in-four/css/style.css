@@ -1,0 +1,300 @@
+* {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;    
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: url("../img/bg.jpg");
+    margin: 0;
+    user-select: none;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    color: #6b5e56;
+    height: 100%;
+}
+
+#wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+}
+
+#container {
+    width: 100%;
+    max-width: 1400px;
+    height: 100%;
+    position: relative;
+    margin: 0px auto;
+}
+
+img {
+    user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+body img {
+    visibility: hidden;    
+}
+
+body.loaded img {
+    visibility: visible; 
+}
+
+#stencilWrapper {
+    // display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    text-align: center;
+}
+
+#stencil {
+    max-height: 100%;
+    max-width: 60vw;
+    pointer-events: none;
+}
+
+#my {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#ep {
+    position: absolute;
+    top: 180px;
+    left: 20px;
+}
+
+#date {
+    position: absolute;
+    right: 20px;
+    bottom: 90px;
+}
+
+#order {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+#launch {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+}
+
+#launchdetails {
+    position: absolute;
+    right: 20px;
+    top: 120px;
+}
+
+#free {
+    position: absolute;
+    right: 20px;
+    top: 280px;    
+}
+
+#social {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+#social img {
+    margin-right: 10px;
+}
+
+#instructions {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50%;
+    text-align: center;
+    letter-spacing: 3px;
+    transform: translateY(-50%);
+}
+
+#togglesound {
+    position:  absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;   
+    background: url("../img/speaker.png");
+}
+
+#togglesound.off {
+    background: url("../img/mute.png");
+}
+
+#track {
+    position: absolute;
+    left:-500px;
+    top: 0px;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+@media (max-width:1050px) {
+    // body {
+    //     background: purple;
+    // }
+    #launch {
+        width: 190px;
+    }
+    #launchdetails {
+        width: 220px;
+    }
+    #free {
+        top: 265px;
+    }    
+    #date {
+        width: 200px;
+    }
+    
+}
+
+@media (max-width:880px) {
+    // body {
+    //     background: red;
+    // }
+    #my {
+        width: 180px;
+    }
+    #date {
+        bottom: 60px;
+        width: 160px;
+    }
+    #order {
+        width: 140px;
+    }
+    #launch {
+        width: 150px;
+    }
+    #launchdetails {
+        width: 180px;  
+    }    
+    #free {
+        width: 160px;
+        top: 250px;
+    }
+    #social img {
+        width: 28px;
+        margin-right: 5px;
+    }    
+}
+
+@media (max-width:800px) {
+    // body {
+    //     background: green;
+    // }    
+    #my {
+        width: 140px;
+    }
+    #date {
+        bottom: 60px;
+        width: 140px;
+    }
+    #order {
+        width: 140px;
+    }
+    #stencil {
+        transform: scale(0.9);
+    }    
+    #social img {
+        width: 20px;
+        margin-right: 5px;
+    } 
+}
+
+@media (max-width:750px) {
+    // body {
+    //     background: yellow;
+    // } 
+    #launchdetails {
+        top: 105px;
+    }  
+    #free {
+        top: 220px;
+    } 
+    #stencil {
+        transform: scale(0.8);
+    }    
+}
+
+@media (max-width:640px) {
+    // body {
+    //     background: blue;
+    // }    
+    #my {
+        width: 140px;
+    }
+    #ep {
+        width: 105px;
+        top: 20px;
+        left: auto;
+        right: 20px;
+    }
+    #date {
+        left: 20px;
+        bottom: 70px;
+        width: 200px;
+    }
+    #order {
+        left: 20px;
+        width: 200px;
+    }
+    #launch {
+        right: 20px;
+        top: 170px;
+        width: 160px;           
+    }
+    #launchdetails {
+        right: 20px;
+        top: 230px;
+        width: 160px;        
+    }
+    #free {
+        right: 20px;
+        top: 330px;
+        width: 140px;
+    }
+    #stencilWrapper {
+        text-align: left;
+        width: 100%;
+        left: auto;
+        right: 0px;
+    }
+    #stencil {
+        margin-left: -10px;
+        margin-top: 110px;
+        right: 10px;
+        max-height: 320px;
+    }
+    #social {
+        left: auto;
+        right: 20px;
+        width: 20px;
+    }
+    #social img {
+        margin-right: 0px;
+    }
+}
