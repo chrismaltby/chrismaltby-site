@@ -31,6 +31,12 @@ p {
   font-size: 1.25rem;
 }
 
+blockquote {
+  border-left: 2px solid #ccc;
+  padding-left: 20px;
+  margin-left: 0px;
+}
+
 .transition-item {
 }
 

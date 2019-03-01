@@ -7,6 +7,11 @@
 .ContentMarkdown p {
 }
 
+.ContentMarkdown img {
+  max-width: 100%;
+  margin: 40px 0;
+}
+
 .ContentMarkdown h2 {
   color: #333333;
   font-weight: 300;

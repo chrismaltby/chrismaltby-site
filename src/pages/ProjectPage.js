@@ -19,6 +19,7 @@ export default ({ match }) => {
         url={project.url}
         image={project.heroImage}
         color={project.heroColor}
+        shadow={project.heroShadow}
       />
       {project.content.map((block, index) =>
         <ContentBlock key={index} block={block} />
